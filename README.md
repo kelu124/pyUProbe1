@@ -9,6 +9,8 @@ Basic acquisition while connected to the probe:
 * [Listening to 5002](/pythonSDK/test5002.py) for data
 * [Listening to 5003](/pythonSDK/test5003.py) for info
 
+These tools create (via piping) the data files on which subsequent notebooks work on. (aka use _python test5002.py > 20170404-patates.data_ to get the data).
+
 Some notebooks:
 
 * [Understanding the headers](/20170410-CrackingHeaders.ipynb)
